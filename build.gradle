@@ -49,7 +49,7 @@ subprojects {
 
     dependencies {
         compileOnly("com.github.spotbugs:spotbugs-annotations:4.7.3")
-        testCompileOnly("com.github.spotbugs:spotbugs-annotations:4.7.2")
+        testCompileOnly("com.github.spotbugs:spotbugs-annotations:4.7.3")
         pmd("net.sourceforge.pmd:pmd-java:6.51.0") {
             exclude group: 'commons-io', module: 'commons-io'
         }
